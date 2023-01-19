@@ -1,0 +1,166 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 1.2rem 0;
+}
+
+.user_info {
+  padding-left: 9px;
+  padding-top: 30px;
+}
+
+.user {
+  display: flex;
+}
+
+[alt="avatar"] {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.user_name {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.739);
+  font-weight: 700;
+}
+
+.student {
+  font-size: 1.2rem;
+  color: rgba(128, 128, 128, 0.831);
+}
+
+.navi {
+  display: flex;
+  height: 100%;
+}
+
+.navi_link {
+  padding: 0.66rem 2.5rem;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.739);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.navi_link:hover {
+  border-color: rgba(0, 0, 0, 0.739);
+}
+
+.intro_inner {
+  display: flex;
+  padding-bottom: 70px;
+  position: relative;
+  padding-top: 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.intro_content {
+  width: 50%;
+}
+
+.title {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.739);
+  font-weight: 700;
+  margin: 3rem;
+  text-align: center;
+}
+
+.intro_text {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.666);
+  text-align: justify;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.social_link {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro_photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.before_title {
+  font-size: 2.7rem;
+  color: rgba(0, 0, 0, 0.739);
+  font-weight: 700;
+  margin: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery_col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.life_before {
+  display: flex;
+  padding-bottom: 100px;
+  position: relative;
+  padding-top: 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.after_text {
+  margin-top: 400px;
+  margin-bottom: 280px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.666);
+  text-align: center;
+}
